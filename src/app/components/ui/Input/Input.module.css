@@ -1,0 +1,47 @@
+.inputContainer {
+  position: relative;
+  width: 100%;
+  max-width: 317px;
+  min-width: 200px;
+  height: 56px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 18px;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.iconLight {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.iconDark {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  padding-right: 12px;
+  padding-left: 46px; /* Adjusted for the icon */
+  border-radius: 0.75rem; /* Rounded-xl */
+  border: 1px solid rgba(var(--foreground-rgb), 0.2);
+  background-color: rgba(var(--background-end-rgb), 1);
+  color: rgba(var(--foreground-rgb), 1);
+  font-family: var(--font-family);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--focus-ring-color);
+}
+
+.input::placeholder {
+  font-weight: 100; /* Set the placeholder font weight */
+  font-size: 14px;
+}

@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  background-color: #2ba9ef; /* Blue-500 */
+  width: 100%; /* Make the button take full width */
+  max-width: 272px; /* Adjust max width as necessary */
+  min-width: 200px; /* Set minimum width */
+  border-radius: 15px; /* Rounded corners */
+  position: relative; /* Enable absolute positioning for child elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.text {
+  font-size: 14px;
+}
+
+.iconContainer {
+  position: absolute;
+  right: 12px; /* Adjust as necessary */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1590d5; /* Blue-700 */
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; /* Fully rounded icon container */
+}
+
+.icon {
+  color: white;
+  font-size: 16px; /* Set the size of the icon */
+  height: 15px;
+}
+
+.text {
+  flex-grow: 1; /* Allow the text to grow and take available space */
+  text-align: center; /* Center the text */
+}

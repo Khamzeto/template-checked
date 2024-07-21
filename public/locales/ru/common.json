@@ -1,0 +1,13 @@
+{
+  "registration": {
+    "title": "Регистрация",
+    "username": "Ваше имя пользователя",
+    "email": "abc@email.com",
+    "password": "Ваш пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "register": "ЗАРЕГИСТРИРОВАТЬСЯ",
+    "or": "или",
+    "alreadyAccount": "Уже есть аккаунт?",
+    "signIn": "Войти"
+  }
+}

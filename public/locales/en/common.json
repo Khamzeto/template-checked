@@ -1,0 +1,14 @@
+// public/locales/en/common.json
+{
+  "registration": {
+    "title": "Registration",
+    "username": "Your username",
+    "email": "abc@email.com",
+    "password": "Your password",
+    "confirmPassword": "Confirm password",
+    "register": "REGISTER",
+    "or": "or",
+    "alreadyAccount": "Already have an account?",
+    "signIn": "Sign In"
+  }
+}
